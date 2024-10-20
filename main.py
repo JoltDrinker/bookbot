@@ -10,7 +10,8 @@ with open("books/frankenstein.txt") as f:
         else:
             char_count[char] = 1
 
-    return char_count
+    print char_count
+    
 
     #print(file_contents)
     print("Word count = ", words)
